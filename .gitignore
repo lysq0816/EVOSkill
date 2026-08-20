@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Real conversations, evaluation data, and generated outputs
+data/
+output/
+outputs/
+*.xlsx
+*.xls
+*.csv
+*.tsv
+*.log
+
+# Private/local knowledge and prompts
+knowledge/private/
+prompts/private/
+
+# Original internal baseline (kept locally only; enhanced sanitized version is tracked)
+复核跑测代码_单文件独立版(1).py
+
+# Editors / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
